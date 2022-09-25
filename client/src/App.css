@@ -106,14 +106,14 @@ a:hover {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 60px;
+  align-items: baseline;
 }
 
 .icon-buttons {
-  display: flex;
   justify-content: center;
+  bottom: 0%;
 }
 
-Button,
 .heart-icon,
 .cart-icon {
   margin-left: 8px;
@@ -231,50 +231,6 @@ Button,
 }
 /* end of contributors css */
 
-/* resposive */
-@media (max-width: 940px) {
-  .header {
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .company-name {
-    border-bottom: #000 3px solid;
-    font-size: 30px;
-  }
-  .nav-bar {
-    margin: auto;
-  }
-
-  .homepage-pic-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
-  }
-
-  .welcome-title {
-    text-align: center;
-    font-size: 50px;
-  }
-
-  .wishlist-container {
-    flex-direction: column;
-  }
-
-  .cart-item {
-    width: fit-content;
-  }
-
-  .cart-item-img {
-    width: 80px;
-    height: 60px;
-  }
-}
-
 /* start of my account css styling */
 
 .my-account {
@@ -350,3 +306,47 @@ Button,
   letter-spacing: 2px;
 }
 /* end of cart page css */
+
+/* resposive */
+@media (max-width: 940px) {
+  .header {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .company-name {
+    border-bottom: #000 3px solid;
+    font-size: 30px;
+  }
+  .nav-bar {
+    margin: auto;
+  }
+
+  .homepage-pic-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .welcome-title {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .wishlist-container {
+    flex-direction: column;
+  }
+
+  .cart-item {
+    width: fit-content;
+  }
+
+  .cart-item-img {
+    width: 80px;
+    height: 60px;
+  }
+}
