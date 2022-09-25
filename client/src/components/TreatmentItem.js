@@ -21,6 +21,16 @@ const TreatmentItem = () => {
   const { loading, data } = useQuery(QUERY_TREATMENTS);
   const dispatch = useDispatch();
 
+  // saved to wishlist notice
+  function handleWishlistClick() {
+    alert("SAVED TO WISHLIST!");
+  }
+
+  // saved to cart notice
+  function handleCartClick() {
+    alert("ADDED TO CART!");
+  }
+
   const addToCart = (treatment) => {
     addOrder({
       variables: {
@@ -91,13 +101,20 @@ const TreatmentItem = () => {
             </Typography>
           </CardContent>
           <CardActions className="icon-buttons">
-            <Button size="small" onClick={() => addToWishlist(treatment)}>
-              Add to wishlist
+            <Button
+              size="small"
+              onClick={() => {
+                handleWishlistClick();
+                addToWishlist(treatment);
+              }}
+            >
+              Add to Wishlist
               <FontAwesomeIcon className="heart-icon" icon={faHeart} />{" "}
             </Button>
             <Button
               size="small"
               onClick={() => {
+                handleCartClick();
                 addToCart(treatment);
               }}
             >
