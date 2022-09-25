@@ -21,7 +21,8 @@ const Cart = () => {
   function calculateTotal() {
     let sum = 0;
     cart.forEach((item) => {
-      sum += item.price * item.quantity;
+      sum += item.price;
+      // * item.quantity
     });
     return sum.toFixed(2);
   }
