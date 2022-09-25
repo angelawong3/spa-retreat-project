@@ -24,12 +24,12 @@ const useStyles = makeStyles((theme) => ({
   },
   large: {
     alignItems: "center",
-    width: theme.spacing(30),
-    height: theme.spacing(30),
+    width: theme.spacing(25),
+    height: theme.spacing(25),
     margin: theme.spacing(2, 2, 0),
   },
   container: {
-    height: "84vh",
+    height: "80vh",
   },
 }));
 

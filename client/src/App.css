@@ -237,7 +237,7 @@ a:hover {
   background-repeat: no-repeat;
   height: 800px;
   background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1590884056072-0248bac7797e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-image: url("https://images.unsplash.com/photo-1483137140003-ae073b395549?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 }
 
 .my-account-title {
@@ -250,12 +250,12 @@ a:hover {
 
 #myaccountprofilepic {
   padding-top: 120px;
-  padding-left: 250px;
+  padding-left: 200px;
 }
 
 #myaccountdetails {
   margin-top: 70px;
-  margin-left: 70px;
+  margin-left: 20px;
   padding: 50px;
   background-color: #f5ebe0;
   width: 500px;
@@ -269,7 +269,7 @@ a:hover {
 }
 
 #myaccountdetailstext {
-  font-size: 26px;
+  font-size: 20px;
   margin: 10px;
 }
 
