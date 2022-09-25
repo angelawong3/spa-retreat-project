@@ -68,7 +68,7 @@ const Cart = () => {
 
         {/* {total > 0 && <h2>Total : {total}</h2>} */}
         <div className="cart-total-price">
-          <strong>Total: £{calculateTotal()}</strong>
+          <strong>Total: £{calculateTotal(total)}</strong>
         </div>
       </div>
     </>
