@@ -232,7 +232,6 @@ a:hover {
 /* end of contributors css */
 
 /* start of my account css styling */
-
 .my-account {
   background-repeat: no-repeat;
   height: 800px;
@@ -304,6 +303,7 @@ a:hover {
   margin-top: 10%;
   text-align: center;
   letter-spacing: 2px;
+  margin-bottom: 100px;
 }
 /* end of cart page css */
 
