@@ -38,6 +38,11 @@ const Wishlist = () => {
     console.log("added to cart");
   };
 
+  // saved to cart notice
+  function handleCartClick() {
+    alert("ADDED TO CART!");
+  }
+
   // render wishlist items
   const wishlistCard = wishlistData.map((treatment) => {
     return (
@@ -57,7 +62,10 @@ const Wishlist = () => {
           </button>
           <button
             className="btn btn-addCart"
-            onClick={() => addToCart(treatment)}
+            onClick={() => {
+              handleCartClick();
+              addToCart(treatment);
+            }}
           >
             Add to Cart
           </button>
