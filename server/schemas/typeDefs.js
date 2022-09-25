@@ -55,6 +55,7 @@ const typeDefs = gql`
     addUser(
       firstName: String!
       lastName: String!
+      profilePic: String!
       email: String!
       password: String!
     ): Auth

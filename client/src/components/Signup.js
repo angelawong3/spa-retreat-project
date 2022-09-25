@@ -25,6 +25,7 @@ export default function SignUp() {
     lastName: "",
     email: "",
     password: "",
+    profilePic: "",
   });
 
   const [addUser] = useMutation(ADD_USER);
@@ -52,6 +53,7 @@ export default function SignUp() {
     setUserFormData({
       firstName: "",
       lastName: "",
+      profilePic: "",
       email: "",
       password: "",
     });
@@ -116,6 +118,23 @@ export default function SignUp() {
                       lastName: event.target.value,
                     })
                   }
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  id="profilePic"
+                  label="Profile Picture (please provide a URL)"
+                  name="profilePic"
+                  autoFocus
+                  value={userFormData.profilePic}
+                  onChange={(event) => {
+                    setUserFormData({
+                      ...userFormData,
+                      profilePic: event.target.value,
+                    });
+                  }}
                 />
               </Grid>
               <Grid item xs={12}>
