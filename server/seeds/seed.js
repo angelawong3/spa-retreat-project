@@ -144,6 +144,8 @@ db.once("open", async () => {
     lastName: "Smith",
     email: "pamela@testmail.com",
     password: "password12345",
+    profilePic:
+      "https://img.freepik.com/premium-vector/man-profile-cartoon_18591-58482.jpg?w=2000",
   });
 
   await User.create({
