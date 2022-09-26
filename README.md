@@ -78,10 +78,7 @@ If you would like to contribute on this project at all, please contact anyone of
 
 ## Deployed Link
 
-```
 https://spa-retreat-project.herokuapp.com/
-
-```
 
 ## Licence
 
