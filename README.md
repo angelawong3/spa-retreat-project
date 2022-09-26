@@ -1,6 +1,6 @@
-# Spa-Retreat-Project
+# Spa Retreat Project
 
-Our Spa retreat project is based on our make believe spa '404GETAWAY'. A MERN stack application.
+404GETAWAY, a MERN stack application.
 
 ## User Story
 
@@ -47,8 +47,8 @@ I will be able to to add items to my cart
 ## Installation
 
 ```
-git clone git@github.com:AliceBryer/Spa-Retreat-Project.git
-cd Spa-Retreat-Project
+git clone git@github.com:angelawong3/spa-retreat-project.git
+cd spa-retreat-project
 npm install
 
 ```
@@ -62,20 +62,24 @@ npm run develop
 
 ## Screenshots
 
-![app-gif](./client/src/img/spa-retreat-gif.gif)
+Demo video: https://drive.google.com/file/d/15I2OkklTKDhIb-NWAik5MFrK2VYsSnYD/view?usp=sharing
 
-![UI1](./client/src/img/UI1.jpg)
+![UI1](./client/src/img/UI1.png)
 
-![UI2](./client/src/img/UI2.jpg)
+![UI2](./client/src/img/UI2.png)
+
+![UI3](./client/src/img/UI3.png)
+
+![UI4](./client/src/img/UI4.png)
 
 ## Contributing
 
-If you would like to contribute on this project at all, please contact anyone of us via email or phone. All personal details are in our 'contributors' page.
+If you would like to contribute on this project at all, please contact anyone of us via email. All personal details are in our 'contributors' page.
 
 ## Deployed Link
 
 ```
-https://spa-retreat-app.herokuapp.com/
+https://spa-retreat-project.herokuapp.com/
 
 ```
 
