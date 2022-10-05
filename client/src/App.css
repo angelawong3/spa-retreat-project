@@ -80,8 +80,7 @@ a:hover {
 }
 
 .welcome-pic {
-  height: 680px;
-  width: 480px;
+  height: 100vh;
 }
 
 .welcome-div {
