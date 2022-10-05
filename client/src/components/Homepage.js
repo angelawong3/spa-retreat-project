@@ -9,7 +9,7 @@ import relax from "../img/relax.avif";
 const homepagePics = [candle, massage, diffuser, massage, oil, relax];
 
 function Homepage() {
-  const [currentImage, setCurrentImage] = useState(null);
+  const [currentImage, setCurrentImage] = useState(homepagePics[0]);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
